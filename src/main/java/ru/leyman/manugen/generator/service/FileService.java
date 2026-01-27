@@ -1,4 +1,4 @@
-package ru.leyman.manugen.service;
+package ru.leyman.manugen.generator.service;
 
 import java.io.FileNotFoundException;
 import java.io.InputStream;

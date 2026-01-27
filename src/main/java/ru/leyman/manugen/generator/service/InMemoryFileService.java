@@ -1,4 +1,4 @@
-package ru.leyman.manugen.service;
+package ru.leyman.manugen.generator.service;
 
 import lombok.extern.log4j.Log4j2;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

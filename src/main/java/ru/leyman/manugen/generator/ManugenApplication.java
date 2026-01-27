@@ -1,4 +1,4 @@
-package ru.leyman.manugen;
+package ru.leyman.manugen.generator;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,9 +1,9 @@
-package ru.leyman.manugen.api;
+package ru.leyman.manugen.generator.api;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
-import ru.leyman.manugen.dto.GenerationRequest;
-import ru.leyman.manugen.service.GenerationService;
+import ru.leyman.manugen.generator.dto.GenerationRequest;
+import ru.leyman.manugen.generator.service.GenerationService;
 
 @RestController
 @RequestMapping("gen")

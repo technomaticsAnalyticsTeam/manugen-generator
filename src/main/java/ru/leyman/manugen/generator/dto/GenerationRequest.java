@@ -1,4 +1,4 @@
-package ru.leyman.manugen.dto;
+package ru.leyman.manugen.generator.dto;
 
 import java.util.Map;
 

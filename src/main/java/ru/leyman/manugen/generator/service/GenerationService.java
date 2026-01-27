@@ -1,4 +1,4 @@
-package ru.leyman.manugen.service;
+package ru.leyman.manugen.generator.service;
 
 import fr.opensagres.xdocreport.converter.ConverterTypeTo;
 import fr.opensagres.xdocreport.converter.Options;
@@ -9,9 +9,8 @@ import fr.opensagres.xdocreport.template.TemplateEngineKind;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.log4j.Log4j2;
 import org.springframework.stereotype.Service;
-import ru.leyman.manugen.dto.GenerationRequest;
+import ru.leyman.manugen.generator.dto.GenerationRequest;
 
-import java.io.*;
 import java.util.concurrent.ExecutorService;
 
 @Log4j2

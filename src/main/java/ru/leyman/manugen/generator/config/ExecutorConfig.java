@@ -1,4 +1,4 @@
-package ru.leyman.manugen.config;
+package ru.leyman.manugen.generator.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
