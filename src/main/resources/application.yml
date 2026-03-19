@@ -3,3 +3,10 @@ server.port: 8080
 spring.application.name: generator
 
 files.mode: in-memory
+
+# Template service configuration
+template.service.url: http://template-service:8080
+
+# Public generation settings
+public.generation.timeout: 30000
+public.generation.max-params: 20

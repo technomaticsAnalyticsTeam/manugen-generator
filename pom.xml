@@ -46,6 +46,13 @@
             <artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
             <version>${xdocreport.version}</version>
         </dependency>
+        
+        <!-- For HTTP client to call template service -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-webflux</artifactId>
+            <optional>true</optional>
+        </dependency>
     </dependencies>
 
     <build>
